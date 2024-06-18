@@ -36,7 +36,7 @@ const Body = (props) => {
 
   return (
     <div>
-      <div className='flex flex-wrap justify-center m-2 '>
+      <div className=' pt-[95px] flex flex-wrap justify-center m-2 '>
 
       {
         news.map((count)=>

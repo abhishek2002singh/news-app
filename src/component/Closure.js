@@ -4,6 +4,7 @@ import React from 'react'
 const Closure = (props) => {
     const {Clu}=props;
   return (
+    
     <div  className='h-[450px] w-96 m-5 '>
       <div >
         <img className=" h-80 w-96 rounded-3xl p-3 m-2 " src={Clu.urlToImage} alt="" />
@@ -27,6 +28,7 @@ const Closure = (props) => {
           
         
     </div>
+   
   )
 }
 
